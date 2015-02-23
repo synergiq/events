@@ -1,0 +1,8 @@
+!List of Events
+{button href="synergiq_events_editevent" _text="Create Event"}
+{LIST()}
+{OUTPUT(template="synergiq_eventlist.tpl")}{OUTPUT}
+{filter type="trackeritem"}
+{filter field="tracker_id" exact="$profileobject:02_trackers:event_calendar$"}
+{FORMAT(name="map")}{display name=tracker_field_eventMap format=trackerrender}{FORMAT}
+{LIST}

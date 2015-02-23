@@ -1,0 +1,18 @@
+---
+objects:
+  -
+    type: wiki_page
+    ref: page_listevents
+    data:
+      mode: create_or_update
+      name: synergiq_events_listevents
+      content: wikicontent:page_listevents
+      description:
+  -
+    type: wiki_page
+    ref: page_editevent
+    data:
+      mode: create_or_update
+      name: synergiq_events_editevent
+      content: wikicontent:page_editevent
+      description

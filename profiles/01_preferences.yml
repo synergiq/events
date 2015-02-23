@@ -1,0 +1,15 @@
+---
+preferences:
+  feature_page_title: n
+  feature_trackers: y
+  feature_search: y
+  trackerfield_text: y
+  trackerfield_textarea: y
+  trackerfield_jscalendar: y
+  trackerfield_location: y
+  wikiplugin_button: y
+  wikiplugininline_button: y
+  wikiplugin_tracker: y
+  wikiplugininline_tracker: y
+  wikiplugin_list: y
+  wikiplugininline_list: y 

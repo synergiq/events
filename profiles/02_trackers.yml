@@ -1,0 +1,102 @@
+---
+objects: 
+  - 
+    type: tracker
+    ref: event_calendar
+    data: 
+      name: Event Calendar
+      description: 
+      restrict_end: 0
+      section_format: flat
+      restrict_start: 0
+  - 
+    type: tracker_field
+    ref: event_calendar_eventName
+    data: 
+      name: Event Name
+      permname: eventName
+      tracker: $profileobject:event_calendar$
+      options: 
+        samerow: 1
+      type: text_field
+      order: 10
+      flags: 
+        - link
+        - list
+        - public
+        - mandatory
+  - 
+    type: tracker_field
+    ref: event_calendar_eventDescription
+    data: 
+      name: Event Description
+      permname: eventDescription
+      tracker: $profileobject:event_calendar$
+      options: 
+        distinct: false
+        wysiwyg: false
+        samerow: 1
+      type: text_area
+      order: 20
+      flags: 
+        - public
+  - 
+    type: tracker_field
+    ref: event_calendar_eventMap
+    data: 
+      name: Event Map
+      permname: eventMap
+      tracker: $profileobject:event_calendar$
+      options: 
+        list_width: 200
+        list_height: 200
+        item_width: 500
+        item_height: 400
+      type: map
+      order: 60
+      flags: 
+        - public
+  - 
+    type: tracker_field
+    ref: event_calendar_eventStart
+    data: 
+      name: Event Start
+      permname: eventStart
+      tracker: $profileobject:event_calendar$
+      options: 
+      type: calendar
+      order: 40
+      flags: 
+        - public
+        - mandatory
+  - 
+    type: tracker_field
+    ref: event_calendar_eventEnd
+    data: 
+      name: Event End
+      permname: eventEnd
+      tracker: $profileobject:event_calendar$
+      options: 
+      type: calendar
+      order: 50
+      flags: 
+        - public
+        - mandatory
+  - 
+    type: tracker_option
+    ref: event_calendar_sort_default_field
+    data: 
+      tracker: $profileobject:event_calendar$
+      name: sort_default_field
+      value: modification
+  -
+    type: tracker_item
+    ref: event_calendar_demo_item
+    data:
+      tracker: $profileobject:event_calendar$
+      values:
+        - [eventName, Demo Event]
+        - [eventDescription, This is a demo event that is installed together with the add-on.]
+        - [eventMap, -79.3831843,43.653226,10]
+        - [eventStart, 1425913200]
+        - [eventEnd, 1425938400]
