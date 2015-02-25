@@ -12,4 +12,6 @@ preferences:
   wikiplugin_tracker: y
   wikiplugininline_tracker: y
   wikiplugin_list: y
-  wikiplugininline_list: y 
+  wikiplugininline_list: y
+  wikiplugin_pref: y
+  wikiplugininline_pref: y 

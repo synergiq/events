@@ -1,2 +1,5 @@
+~tc~ Please do not edit this page manually. It is created automatically by the synergiq/events addon ~/tc~
+{PREF(ta_synergiq_events_on="y")}
 !Create/Edit Event
 {tracker trackerId="$profileobject:02_trackers:event_calendar$" url="synergiq_events_listevents"}
+{PREF}
