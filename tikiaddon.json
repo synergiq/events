@@ -1,7 +1,7 @@
 {
 	"name": "Synergiq Event Calendar",
 	"package": "synergiq/events",
-	"version": "0.1",
+	"version": "0.2",
 	"url": "https://github.com/synergiq/events",
 	"smarty": true,
 	"tiki": ["14"],
