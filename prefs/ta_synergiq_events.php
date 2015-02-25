@@ -14,12 +14,5 @@ function prefs_ta_synergiq_events_list()
 			'tags' => array('basic'),
 			'default' => 'y',
 		),
-		'ta_synergiq_events_map' => array(
-			'name' => tra('Show map with events'),
-			'description' => tra('Allow the showing of a map for events'),
-			'type' => 'flag',
-			'tags' => array('basic'),
-			'default' => 'y',
-		),
 	);
 }
