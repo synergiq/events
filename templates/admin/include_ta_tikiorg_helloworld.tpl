@@ -7,9 +7,9 @@
 			</div>
 		</div>
 	</div>
-	{tabset name="admin_ta_tikiorg_helloworld"}
+	{tabset name="admin_ta_synergiq_events"}
 	{tab name="{tr}Main features{/tr}"}
-		{preference name=ta_tikiorg_helloworld_on}
+		{preference name=ta_synergiq_events_on}
 	{/tab}
 	{/tabset}
 	<div class="row">
