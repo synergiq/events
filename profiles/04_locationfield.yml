@@ -1,0 +1,15 @@
+---
+objects:
+  - 
+    type: tracker_field
+    ref: event_calendar_eventLocation
+    data: 
+      name: Event Location
+      permname: eventLocation
+      tracker: $profileobject:02_trackers:event_calendar$
+      options: 
+        samerow: 1
+      type: text_field
+      order: 55
+      flags: 
+        - public
