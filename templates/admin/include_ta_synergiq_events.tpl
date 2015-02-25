@@ -10,6 +10,7 @@
 	{tabset name="admin_ta_synergiq_events"}
 	{tab name="{tr}Main features{/tr}"}
 		{preference name=ta_synergiq_events_on}
+		{preference name=ta_synergiq_events_map}
 	{/tab}
 	{/tabset}
 	<div class="row">
